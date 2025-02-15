@@ -1,0 +1,77 @@
+/* Yep. Nothing. You've got this though! Refer back to the curriculum wherever necessary! */
+/* CSS Stylesheet */
+.box {
+    box-sizing: border-box;
+    width: 400px;
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box-with-margin {
+    margin: 30px;
+}
+
+.static-element {
+    position: relative;
+}
+
+.relative-element {
+    position: relative;
+    left: 50px;
+}
+
+.absolute-element {
+    position: relative;
+    top: 150px;
+}
+
+.fixed-element {
+    position: fixed;
+    bottom: 100px;
+    right: 200px;
+}
+
+.column {
+    border: 1px solid lightgray;
+    float: right;
+}
+
+.container {
+    display: inline-flex;
+}
+
+.item {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: #bdd40e;
+    gap: 10px
+}
+
+.grid-container > div {
+    background-color: azure;
+    padding: 20px
+}
+
+.header {
+    grid-column: span 4;
+    background-color: aliceblue;
+}
+
+.sidebar {
+    grid-column: span 1;
+}
+
+.main {
+    grid-column: span 2;
+}
+
+.footer {
+    grid-column: span 4;
+}
